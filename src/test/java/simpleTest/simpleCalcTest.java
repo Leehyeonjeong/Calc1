@@ -30,6 +30,14 @@ public class simpleCalcTest {
 		simplecalc calc=new simplecalc();
 		calc.div(100,20);
 		assertEquals(5,calc.getresult());
-
+	}
+	
+	@Test
+	public void testInc() {
+		simplecalc calc=new simplecalc();
+		calc.inc(100);
+		assertEquals(100,calc.getresult());
+		calc.inc(200);
+		assertEquals(300,calc.getresult());
 	}
 }

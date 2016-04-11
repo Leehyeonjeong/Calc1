@@ -18,4 +18,10 @@ public class simpleCalcTest {
 		calc.sub(10,20);
 		assertEquals(-10,calc.getresult());
 	}
+	@Test
+	public void testMul() {
+		simplecalc calc=new simplecalc();
+		calc.mul(10,20);
+		assertEquals(200,calc.getresult());
+	}
 }

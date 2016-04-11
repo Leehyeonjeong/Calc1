@@ -14,4 +14,8 @@ public class simplecalc {
 	public void sub(int a,int b){
 		result=a-b;
 	}
+
+	public void mul(int a,int b){
+		result=a*b;
+	}
 }

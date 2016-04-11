@@ -24,7 +24,8 @@ public class simpleCalcTest {
 		simplecalc calc=new simplecalc();
 		calc.mul(10,20);
 		assertEquals(200,calc.getresult());
-
+	}
+	@Test
 	public void testDiv() {
 		simplecalc calc=new simplecalc();
 		calc.div(100,20);

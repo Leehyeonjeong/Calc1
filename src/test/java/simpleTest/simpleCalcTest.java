@@ -8,8 +8,14 @@ public class simpleCalcTest {
 
 	@Test
 	public void testAdd() {
-		simplecalc a=new simplecalc();
-		a.add(3, 4);
-		assertEquals(7,a.getresult());
+		simplecalc calc=new simplecalc();
+		calc.add(3, 4);
+		assertEquals(7,calc.getresult());
+	}
+	@Test
+	public void testSub() {
+		simplecalc calc=new simplecalc();
+		calc.sub(10,20);
+		assertEquals(-10,calc.getresult());
 	}
 }

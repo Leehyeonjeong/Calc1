@@ -19,9 +19,16 @@ public class simpleCalcTest {
 		assertEquals(-10,calc.getresult());
 	}
 	@Test
+
 	public void testMul() {
 		simplecalc calc=new simplecalc();
 		calc.mul(10,20);
 		assertEquals(200,calc.getresult());
+
+	public void testDiv() {
+		simplecalc calc=new simplecalc();
+		calc.div(100,20);
+		assertEquals(5,calc.getresult());
+
 	}
 }

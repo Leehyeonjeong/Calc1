@@ -15,7 +15,12 @@ public class simplecalc {
 		result=a-b;
 	}
 
+
 	public void mul(int a,int b){
 		result=a*b;
+
+	public void div(int a,int b){
+		result=a/b;
+
 	}
 }
